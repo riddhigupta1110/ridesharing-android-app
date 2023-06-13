@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="@drawable/yellow_border">
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/upload_data"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/colorPrimary"/>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:src="@drawable/uploadimg"
+                android:id="@+id/uploadImage"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadDriverName"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter your name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadsrc"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter source"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploaddest"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter destination"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadtime"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter time"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadgender"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter your Gender"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadnopass"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter number of passenger"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/uploadfare"
+                android:background="@drawable/yellow_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Enter fare per person"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/save"
+                android:id="@+id/saveButton"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+<!--                android:cornerRadius = "20dp"-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

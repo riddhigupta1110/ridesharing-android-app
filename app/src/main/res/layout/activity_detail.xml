@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/detailTitle"-->
+<!--        android:text="Ride"-->
+<!--        android:layout_marginTop="14dp"-->
+<!--        android:textSize="24sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:textColor="@color/black"/>-->
+    
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:id="@+id/detailImage"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/uploadimg"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Name"
+        android:layout_gravity="center"
+        android:id="@+id/detailName"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Gender of Driver"
+        android:layout_gravity="center"
+        android:id="@+id/detailGender"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Source"
+        android:layout_gravity="center"
+        android:id="@+id/detailSrc"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Destination"
+        android:layout_gravity="center"
+        android:id="@+id/detailDest"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Time"
+        android:layout_gravity="center"
+        android:id="@+id/detailTime"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="No of passenegers"
+        android:layout_gravity="center"
+        android:id="@+id/detailNoPass"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Fare per passenger"
+        android:layout_gravity="center"
+        android:id="@+id/detailFare"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/payBtnRazorpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="@string/pay_with_razorpay" />
+
+</LinearLayout>
